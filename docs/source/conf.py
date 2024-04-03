@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Snbpy'
+copyright = '2024, Snowball Securities'
+author = 'Snowball Securities'
 
 release = '0.1'
 version = '0.1.0'
@@ -33,3 +33,4 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+html_show_sourcelink = False
