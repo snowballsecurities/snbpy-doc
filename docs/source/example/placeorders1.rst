@@ -118,3 +118,13 @@ CFD
 .. code-block:: python
 
     order_result = agent.client.place_order(order_id, SecurityType.CMDTY, "XAUUSD", "", OrderSide.BUY, Currency.USD, 1, 1800, OrderType.LIMIT, TimeInForce.DAY, True)
+
+
+CME:FOP
+------------------------------------------------------------------------------------
+
+.. code-block:: python
+
+    order_result = agent.client.place_order(order_id, SecurityType.FOP, "XAUUSD", "", OrderSide.BUY, Currency.USD, 1, 1800, OrderType.LIMIT, TimeInForce.DAY, True)
+
+    

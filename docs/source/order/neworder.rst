@@ -63,6 +63,7 @@ price                double                委托价格，不传默认为 0     
 tif                  enum                  订单有效期 :ref:`enum-time-in-force-label`                                         否                   DAY
 rth                  boolean               仅限盘中交易                                                                       否                   false
 order_id_type        enum                  订单 ID 类型 :ref:`enum-order-id-type-label`                                       否                   NONE
+trading_hours        enum                  指定交易时段 :ref:`enum-trading-hours-label`                                       否                   NONE
 ==================== ==================== ================================================================================ ==================== ====================
 
 **返回值**
@@ -87,6 +88,9 @@ snb_order_id          string                第三方订单 ID                  
 
 .. note::
     当主订单被撤后，子订单也会被撤销
+
+.. note::
+    当使用 trading_hours 参数时，rth参数将失效。
 
 示例
 -----------------------

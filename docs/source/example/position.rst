@@ -1,6 +1,6 @@
 .. _example-get-position-label:
 
-资金查询
+持仓查询
 ==========
 
 .. code-block:: python

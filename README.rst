@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+Snbpy Documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Read the doc here:
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+https://snbpy-doc.readthedocs.io/zh-cn/latest/
