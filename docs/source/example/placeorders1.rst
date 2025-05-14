@@ -125,6 +125,6 @@ CME:FOP
 
 .. code-block:: python
 
-    order_result = agent.client.place_order(order_id, SecurityType.FOP, "XAUUSD", "", OrderSide.BUY, Currency.USD, 1, 1800, OrderType.LIMIT, TimeInForce.DAY, True)
+    order_result =  self.client.place_order(order_id, SecurityType.FOP , "NQ    250919P20000000", "GLOBEX", OrderSide.BUY, Currency.USD, qty, price, OrderType.LIMIT, TimeInForce.DAY, True)
 
     
